@@ -1,0 +1,359 @@
+/* ------   COLORS WEBSITE ------ */
+/* ------   Fonts WEBSITE ------ */
+@font-face {
+  font-family: Rubik-Light;
+  src: url(./fonts/Rubik/Rubik-Light.ttf);
+}
+@font-face {
+  font-family: Rubik-medium;
+  src: url(./fonts/Rubik/Rubik-Medium.ttf);
+}
+@font-face {
+  font-family: Rubik-Bold;
+  src: url(./fonts/Rubik/Rubik-Bold.ttf);
+}
+
+/* ----- Geaniral ----- */
+* {
+  padding: 0;
+  margin: 0;
+  /* color: #17202a; */
+  box-sizing: border-box;
+  font-family: Rubik-Light, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.dis-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.jus-content-between {
+  justify-content: space-between;
+}
+
+.jus-content-center {
+  justify-content: center;
+}
+
+/* ------ Image Website ------ */
+img {
+  width: 50px;
+  display: inline-block;
+}
+
+/* ------ contact us ------ */
+.contact-us {
+  color: #EEEEEE;
+  color: #000;
+  padding: 7px 0;
+  /* min-height: 30px; */
+  background-color: #F35422;
+  background-color: #F68D22;
+}
+
+#phone-icon img {
+  width: 20px;
+}
+
+#tell-us {
+  padding-left: 6px;
+  display: block;
+}
+
+#tell-us a {
+  font-size: 17px;
+  display: block;
+  font-weight: bold;
+  color: #141414;
+  text-decoration: none;
+}
+
+#social-media-top a {
+  padding: 3px;
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+#social-media-top a img {
+  display: block;
+  width: 20px;
+}
+
+/* ------ Haeder ------ */
+.header {
+  padding: 8px 5px;
+  /* min-height: 80px; */
+  background-color: #17202a;
+}
+
+#logo img {
+  width: 65px;
+  max-width: 75px;
+  display: block;
+}
+
+.header .navigation .list-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.header .navigation .list-nav .item-nav {
+  padding: 9px 0 9px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.header .navigation .list-nav .item-nav .item-nav-link {
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+/* ------ Hearo Section ------ */
+.hearo {
+  margin: 50px auto;
+}
+.hearo .hearo-img {
+  width: 50%;
+}
+
+.hearo .hearo-img img {
+  width: 100%;
+  display: block;
+}
+
+.info-hearo {
+  max-width: 50%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#title-hearo {
+  /* color: #141414; */
+  font-size: 90px;
+  font-family:  Rubik-Bold;
+  margin-bottom: 10px;
+}
+
+#title-shape {
+  position: relative;
+  font-family: Rubik-Bold;
+}
+
+#title-shape::before {
+  content: '';
+  height: 40px;
+  width: 100%;
+  background-color: #f68d22;
+  position: absolute;
+  bottom: 5px;
+  left: 2px;
+  z-index: -1;
+}
+
+.des-hearo {
+  /* text-align: center; */
+  line-height: 1.1;
+  margin-top: 5px;
+  color: #17202a;
+  font-size: 20px;
+  font-family: Rubik-medium;
+  max-width: 600px;
+}
+
+#btn-search {
+  align-self: center;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 25px;
+  color:#17202a;
+  background-color: #F68D22;
+  font-size: 17px;
+  text-decoration: none;
+  box-shadow: #f68d22 0px 3px 11px, #f68d224a 0px 10px 10px;
+}
+
+/* ------ Our Service ------ */
+#our-service .group-service {
+  margin: 60px auto;
+  padding: 50px 10px 70px;
+  border-radius: 10px;
+  background-color: #f68d22;
+  text-align: center;
+}
+
+#service-title {
+  margin-bottom: 100px;
+  font-size: 50px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  padding: 5px;
+}
+
+#service-title::before {
+  content: '';
+  width: 100%;
+  height: 25px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 8px;
+  left: 2px;
+  z-index: -1;
+}
+
+#service-title span {
+  font-weight: bold;
+  font-family: Rubik-Bold;
+}
+
+.card-service {
+  text-align: center;
+  margin: 10px 20px;
+  padding: 50px 10px 10px;
+  width: 190px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #fff;
+}
+
+.card-service .card-title {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  /* border: 10px solid #f68d22; */
+  background-color: #17202a;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.card-service .card-des {
+  padding: 10px;
+  line-height: 1.2;
+}
+
+.card-service .card-link {
+  display: block;
+  border-radius: 3px;
+  padding: 10px 15px;
+  color: #17202a;
+  text-decoration: none;
+  background-color: #f68d22;
+}
+
+/* ------ Products ------ */
+.products {
+  padding: 50px;
+  margin-top: 8rem;
+}
+
+.products .product-title {
+  font-size: 50px;
+  position: relative;
+  font-family: Rubik-Bold;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.products .product-title::before {
+  content: '';
+  width: 100%;
+  height: 25px;
+  background-color: #f68d22;
+  position: absolute;
+  bottom: 11px;
+  left: 3px;
+  z-index: -1;
+}
+
+.products .item-product {
+  margin: 10px 15px;
+  position: relative;
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.products .item-product .tag {
+  position: absolute;
+  right: 0px;
+  color: #f68d22;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #17202a;
+}
+
+.products .item-product .info-product {
+  color: #fff;
+  padding: 15px 20px;
+  width: 80%;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #17202a;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.products .item-product .info-product .item-header .title-product {
+  font-size: 20px;
+}
+
+.products .item-product .info-product .item-header .price {
+  font-size: 15px;
+  color: #f68d22;
+}
+
+.products .item-product .info-product .location-item {
+  margin: 10px 0;
+}
+
+.products .item-product .info-product .details .dots {
+  margin-left: 10px;
+  font-family: Rubik-Light;
+}
+
+.products .item-product .info-product .details .dots img {
+  display: block;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.products .item-product .info-product .details .dots strong {
+  font-size: 13px;
+  display: block;
+  font-weight: lighter;
+}
+
+/* ------ Footer ------ */
+#footer {
+  margin-top: 10rem;
+  min-height: 200px;
+  background-color: #17202a;
+}
+
