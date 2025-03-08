@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +12,7 @@
     />
     <!-- File Import Css -->
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style-ar.css" />
   </head>
   <body>
     <!-- Contact US Top Header Website -->
@@ -111,7 +112,7 @@
     <header class="header" id="header">
       <div class="container dis-flex align-items-center jus-content-between">
         <div id="logo">
-          <a href="index.html">
+          <a href="#">
             <img src="./images/logo-fayruz.png" alt="Al Fayrus Logo"
           /></a>
         </div>
@@ -123,13 +124,13 @@
           </button>
           <ul class="list-nav display-heddin">
             <li class="item-nav">
-              <a href="catgeory.html" class="item-nav-link">Modles</a>
+              <a href="#service" class="item-nav-link">شراء</a>
             </li>
             <li class="item-nav">
-              <a href="#service" class="item-nav-link">RealState</a>
+              <a href="#service" class="item-nav-link">إيجار</a>
             </li>
             <li class="item-nav">
-              <a href="#service" class="item-nav-link">RealState</a>
+              <a href="#service" class="item-nav-link">بيع</a>
             </li>
           </ul>
         </nav>
@@ -140,20 +141,19 @@
       <div class="container dis-flex jus-content-between">
         <div class="info-hearo dis-flex">
           <h1 id="title-hearo">
-            <span id="title-shape">El Fayruz</span>
-            <strong>Text</strong> Compuny
+            شركة <span id="title-shape">الفيروز</span>
+            <strong>للعقارات</strong>
           </h1>
           <p class="des-hearo">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            tincidunt gravida neque, ac finibus purus sollicitudin sed.
-            Suspendisse pulvinar lacus.
+            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي
+            القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في.
           </p>
           <p class="des-hearo">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            tincidunt gravida neque, ac finibus purus sollicitudin sed.
-            Suspendisse pulvinar lacus.
+            ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية
+            تحوي مقاطع من هذا النص، وعاد لينتشر مرة أخرى مؤخراَ مع ظهور برامج
+            أيضاً على نسخ من نص لوريم إيبسوم.
           </p>
-          <a id="btn-search" href="#GoIt">Get Now</a>
+          <a id="btn-search" href="#GoIt">تواصل معنا</a>
         </div>
         <div class="hearo-img">
           <img src="./images/logo-fayruz.png" alt="Hearo Images" />
@@ -164,37 +164,31 @@
     <section id="our-service">
       <div class="container">
         <div class="group-service">
-          <h2 id="service-title"><span>Our Title</span></h2>
+          <h2 id="service-title"><span>خدمتنا</span></h2>
           <div
             class="container-card dis-flex align-items-center jus-content-center"
           >
             <div class="card-service">
-              <h4 class="card-title dis-flex align-items-center">
-                Service Title
-              </h4>
+              <h4 class="card-title dis-flex align-items-center">إيجار</h4>
               <p class="card-des">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent tincidunt gravida.
+                هذا الكتاب هو بمثابة مقالة علمية مطولة في نظرية الأخلاق، وكان له
+                شعبية كبيرة في عصر النهضة.
               </p>
               <a href="#service" class="card-link">Go To It Now</a>
             </div>
             <div class="card-service">
-              <h4 class="card-title dis-flex align-items-center">
-                Service Title
-              </h4>
+              <h4 class="card-title dis-flex align-items-center">شراء</h4>
               <p class="card-des">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent tincidunt gravida.
+                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                الفقرات في الصفحة التي يقرأها.
               </p>
               <a href="#service" class="card-link">Go To It Now</a>
             </div>
             <div class="card-service">
-              <h4 class="card-title dis-flex align-items-center">
-                Service Title
-              </h4>
+              <h4 class="card-title dis-flex align-items-center">بيع</h4>
               <p class="card-des">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent tincidunt gravida.
+                الجمل النموذجية مضاف إليها مجموعة من الجمل النموذجية، لتكوين نص
+                لوريم إيبسوم ذو
               </p>
               <a href="#service" class="card-link">Go To It Now</a>
             </div>
@@ -205,72 +199,69 @@
     <!-- Products -->
     <section class="products">
       <div class="container">
-        <h2 class="product-title">ProDucts</h2>
+        <h2 class="product-title">وحدات مميزة</h2>
         <div
           class="group-products dis-flex align-items-center jus-content-center"
         >
-          <a
-            href="./pages/single-page.html"
+          <div
             class="item-product"
             style="background-image: url(./images/joel-filipe.jpg)"
           >
-            <span class="tag">Open</span>
+            <span class="tag">متاحة</span>
             <div class="info-product">
               <div
                 class="item-header dis-flex align-items-center jus-content-between"
               >
-                <h5 class="title-product">Item Name</h5>
-                <h6 class="price">₤300</h6>
+                <h5 class="title-product">استوديو للايجار مساحة 2م</h5>
+                <h6 class="price">₤3,105</h6>
               </div>
-              <p class="location-item">EGypt, Giza, 6 Octoper City</p>
+              <p class="location-item">مدينة 6 أكتوبر - ح 2 مجاورة 6</p>
               <div class="details dis-flex align-items-center">
                 <span class="dots dis-flex align-items-center">
                   <img src="./images/bed-solid.svg" alt="Bed Icon" /><strong
-                    >Bed 2</strong
+                    >2 سرير</strong
                   ></span
                 >
                 <span class="dots dis-flex align-items-center">
                   <img src="./images/arrow-up.svg" alt="Bed Icon" /><strong
-                    >Bed 2</strong
+                    >دور 2</strong
                   ></span
                 >
               </div>
             </div>
-          </a>
-          <a
-            href="./pages/single-page.html"
+          </div>
+          <div
             class="item-product"
             style="background-image: url(./images/randy-fath.jpg)"
           >
-            <span class="tag">Open</span>
+            <span class="tag">متاحة</span>
             <div class="info-product">
               <div
                 class="item-header dis-flex align-items-center jus-content-between"
               >
-                <h5 class="title-product">Item Name</h5>
-                <h6 class="price">₤300</h6>
+                <h5 class="title-product">شقة للايجار المتميز</h5>
+                <h6 class="price">₤6,800</h6>
               </div>
-              <p class="location-item">EGypt, Giza, 6 Octoper City</p>
+              <p class="location-item">مدينة 6 أكتوبر - المتميز - ح 4</p>
               <div class="details dis-flex align-items-center">
                 <span class="dots dis-flex align-items-center">
                   <img src="./images/bed-solid.svg" alt="Bed Icon" /><strong
-                    >Bed 2</strong
+                    >1</strong
                   ></span
                 >
                 <span class="dots dis-flex align-items-center">
                   <img src="./images/arrow-up.svg" alt="Bed Icon" /><strong
-                    >Bed 2</strong
+                    >3</strong
                   ></span
                 >
               </div>
             </div>
-          </a>
-          <a
-            href="./pages/single-page.html"
+          </div>
+          <div
             class="item-product"
             style="background-image: url(./images/tierra-mallorca.jpg)"
           >
-            <span class="tag">Open</span>
+            <span class="tag">متاحة</span>
             <div class="info-product">
               <div
                 class="item-header dis-flex align-items-center jus-content-between"
@@ -292,7 +283,7 @@
                 >
               </div>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>
